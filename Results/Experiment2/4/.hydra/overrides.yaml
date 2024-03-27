@@ -1,0 +1,2 @@
+- optimizer=opt_exp_sophia_var_10
+- model=MLP_4x100

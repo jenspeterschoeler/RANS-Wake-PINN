@@ -1,0 +1,4 @@
+type: MLP_variable_layersize
+node0: 100
+node1: 100
+node2: 100

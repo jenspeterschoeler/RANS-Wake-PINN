@@ -1,0 +1,3 @@
+type: MLP_uniform_layersize
+n_layers: 3
+n_nodes: 100

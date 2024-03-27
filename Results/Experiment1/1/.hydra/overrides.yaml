@@ -1,0 +1,3 @@
+- ++data.data_ratio=0.01
+- ++data.physics.colloc_data_ratio=0.1
+- model=MLP_8x40

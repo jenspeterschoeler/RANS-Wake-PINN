@@ -1,0 +1,3 @@
+- ++data.data_ratio=0.05
+- ++data.physics.colloc_data_ratio=1
+- model=MLP_4x100

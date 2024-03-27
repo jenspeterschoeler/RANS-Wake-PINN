@@ -1,0 +1,13 @@
+lr: 0.001
+epochs: 2500
+batch: 8096
+early_stop: 
+  criteria: 1e-7
+  patience: 200
+loss_balancing:
+  type: softadapt
+  params:
+    loss_weighted: False
+    beta: 0.3
+    epsilon: 1e-8
+    bd_order: 5

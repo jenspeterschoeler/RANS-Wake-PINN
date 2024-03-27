@@ -1,0 +1,11 @@
+lr: 0.001
+epochs: 2500
+batch: 8096
+early_stop: 
+  criteria: 1e-7
+  patience: 150
+loss_balancing:
+  type: fixed
+  params:
+    alpha_data: 1.0
+    alpha_physics: 5.0

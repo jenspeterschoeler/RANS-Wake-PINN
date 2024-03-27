@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+  - model: MLP_5x60
+  - optimizer: opt_test
+
+data:
+  type: Netcdf of theta averaged RANS from PyWakeEllipsys
+  data_path: ./Data/RANS_1wt_irot_v2.nc
+  input_coords: ["z_cyl", "r", "TI_amb", "CT"]
+  output_vars: ["U_z", "U_r", "P"]
+  exclusion_radius: 1.0
+  data_ratio: 0.1
+  development_mode: subset3x3

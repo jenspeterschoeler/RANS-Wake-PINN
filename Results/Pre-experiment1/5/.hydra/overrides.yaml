@@ -1,0 +1,3 @@
+- model=MLP_5x60
+- ++model.n_layers=6
+- ++model.n_nodes=200

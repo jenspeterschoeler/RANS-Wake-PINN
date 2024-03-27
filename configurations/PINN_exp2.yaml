@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - model: ???
+  - optimizer: ???
+
+data:
+  type: Netcdf of theta averaged RANS from PyWakeEllipsys
+  data_path: ./Data/RANS_1wt_irot_v2.nc
+  input_coords: ["z_cyl", "r", "TI_amb", "CT"]
+  output_vars: ["U_z", "U_r", "P"]
+  exclusion_radius: 1.5
+  development_mode: False
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      optimizer: glob("opt_exp_sophia_var_*")
+      model: choice(MLP_4x100,MLP_8x40)

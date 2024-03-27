@@ -1,0 +1,14 @@
+\begin{tabular}{cccccccccc}
+\br
+ Model & $\gamma_\mathrm{data}$ & $\gamma_\phi$ & $\textrm{MSE}$ & $\textrm{MAE}$ & $\textrm{RMSE}$ & $\textrm{MAPE}$ & $\mathrm{MSE}_\phi$ & Wall time [h] & epochs \\
+\mr
+ Deep $(8\times40)$ & 0.01 & 0.00 &\num{ 1.70e-06 }&\num{ 2.54e-04 }&\num{ 1.30e-03 }& 43.83 & 0.01 & 0.303 & 2474 \\
+ Deep $(8\times40)$ & 0.10 & 0.25 &\num{ 1.42e-06 }&\num{ 1.66e-04 }&\num{ 1.19e-03 }& 4.64 &\num{ 1.03e-06 }& 25.675 & 1237 \\
+ Deep $(8\times40)$ & 0.20 & 0.00 &\num{ 1.33e-06 }&\num{ 2.02e-04 }&\num{ 1.16e-03 }& 107.32 & 0.10 & 1.177 & 608 \\
+ Deep $(8\times40)$ & 0.20 & 0.25 &\num{ 1.20e-06 }&\num{ 1.88e-04 }&\num{ 1.09e-03 }& 76.41 &\num{ 3.01e-06 }& 23.298 & 882 \\
+ Deep $(8\times40)$ & 0.20 & 1.00 &\num{ 1.28e-06 }&\num{ 1.36e-04 }&\num{ 1.13e-03 }& 11.23 &\num{ 1.95e-06 }& 52.716 & 845 \\
+ Wide $(4\times100)$ & 0.10 & 0.00 &\num{ 1.45e-06 }&\num{ 1.49e-04 }&\num{ 1.20e-03 }& 53.95 & 0.18 & 1.112 & 962 \\
+ Wide $(4\times100)$ & 0.10 & 0.50 &\num{ 1.38e-06 }&\num{ 1.74e-04 }&\num{ 1.17e-03 }& 8.01 &\num{ 1.92e-06 }& 109.029 & 2462 \\
+ Wide $(4\times100)$ & 0.20 & 0.50 &\num{ 1.09e-06 }&\num{ 1.33e-04 }&\num{ 1.04e-03 }& 12.97 &\num{ 1.18e-06 }& 136.213 & 2499 \\
+\br
+\end{tabular}

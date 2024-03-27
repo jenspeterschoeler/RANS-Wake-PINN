@@ -1,0 +1,5 @@
+- model=MLP_5x60
+- ++model.n_layers=3
+- ++model.n_nodes=300
+- optimizer=opt_v1
+- ++optimizer.batch=32768

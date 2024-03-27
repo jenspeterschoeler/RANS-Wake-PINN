@@ -1,0 +1,30 @@
+# Files
+*.pdf
+*.pickle
+*.log
+*.err
+*.pyc
+*.pkl
+
+# Folders
+multirun/*
+outputs/*
+.vscode/*
+checkpoints/*
+tmp/*
+
+# Pre-experiments
+Results/Pre-exp*
+!Results/Pre-experiment1/
+!Results/Pre-experiment2/
+Results/Pre-experiment1/*.pkl
+Results/Pre-experiment2/*.pkl
+
+# Main experiments
+Results/Exp*
+!Results/Experiment1/
+!Results/Experiment1_data/
+!Results/Experiment2/
+Results/Experiment1/*.pkl
+Results/Experiment1_data/*.pkl
+Results/Experiment2/*.pkl

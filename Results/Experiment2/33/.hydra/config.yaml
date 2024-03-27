@@ -1,0 +1,38 @@
+data:
+  type: Netcdf of theta averaged RANS from PyWakeEllipsys
+  data_path: ./Data/RANS_1wt_irot_v2.nc
+  input_coords:
+  - z_cyl
+  - r
+  - TI_amb
+  - CT
+  output_vars:
+  - U_z
+  - U_r
+  - P
+  exclusion_radius: 1.5
+  development_mode: false
+model:
+  type: MLP_uniform_layersize
+  n_layers: 8
+  n_nodes: 40
+optimizer:
+  batch: 8096
+  data_ratio: 0.1
+  early_stop:
+    criteria: 1.0e-07
+    patience: 200
+  epochs: 2500
+  loss_balancing:
+    params:
+      bd_order: 5
+      beta: 0.3
+      epsilon: 1.0e-08
+      loss_weighted: false
+    type: softadapt
+  lr: 0.001
+  physics:
+    colloc_data_ratio: 0.1
+    delayed_start: 0
+    toggled: true
+  val_split: 0.1
