@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10846076.svg)](https://doi.org/10.5281/zenodo.10846076)
+
 # RANS Wake PINN 
 This repository is a companion piece for the article "insert article link when published". It includes the code necessary to train the models described in the paper.
 ![PINN concept](./figures/Torque_PINN_cyl_illustration_v2_github.svg)
