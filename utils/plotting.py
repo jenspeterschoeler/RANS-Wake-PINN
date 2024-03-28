@@ -342,9 +342,7 @@ if __name__ == "__main__":
                      val_split=0.1, 
                      development_mode=False)
 
-    model_path = "../outputs/test/final_model"
-    model_path = "../outputs/test/checkpoints/1011/default"
-    model_path = '/home/jpsch/code/jax-flax-wake-pinn/Results/Experiment2/14/checkpoints/1173/default'
+    model_path = '../Results/Experiment2/14/checkpoints/1173/default'
     plotter_class = Plotter(DM, model_path)
     plotter_class.make_metric_df()
 
