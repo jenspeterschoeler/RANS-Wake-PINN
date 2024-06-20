@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10846076.svg)](https://doi.org/10.5281/zenodo.10846076)
+[![DOI](https://img.shields.io/badge/DOI-10.1088\/1742--6596\/2767\/9\/092033-blue)](https://doi.org/10.1088/1742-6596/2767/9/092033)
 
 # RANS Wake PINN 
 This repository is a companion piece for the article "insert article link when published". It includes the code necessary to train the models described in the paper.
@@ -34,6 +35,31 @@ The data used in the training of the models is available in the data folder ([RA
 
 ## Citing
 If you use this repository in your scientific work please consider citing us:
+#### Paper
 ```latex
-Insert reference to article and zenodo once obtained.
+@article{Schoeler2024,
+    doi = {10.1088/1742-6596/2767/9/092033},
+    url = {https://dx.doi.org/10.1088/1742-6596/2767/9/092033},
+    year = {2024},
+    month = {jun},
+    publisher = {IOP Publishing},
+    volume = {2767},
+    number = {9},
+    pages = {092033},
+    author = {J. P. Sch{\o}ler and N. Rosi and J. Quick and R. Riva and S. J. Andersen and J. P. Murcia Leon and M. P. van der Laan and P.-E. Réthoré},
+    title = {RANS wake surrogate: Impact of Physics Information in Neural Networks},
+    journal = {Journal of Physics: Conference Series},
+}
+```
+#### Code
+```latex
+@misc{Schoeler2024code,
+    author       = {J. P. Sch{\o}ler and N. Rosi and J. Quick and R. Riva and S. J. Andersen and J. P. Murcia Leon and M. P. van der Laan and P.-E. Réthoré},
+    title        = {RANS Wake PINN},
+    month        = jun,
+    year         = 2024,
+    publisher    = {Zenodo},
+    doi          = {10.5281/zenodo.10846076},
+    url          = {https://doi.org/10.5281/zenodo.10846076}
+}
 ```
